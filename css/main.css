@@ -1,1 +1,44 @@
+.container {
+    width: 1440px;
+    height: 2654px;
+    background-color: #FFFFFF;
+    border: 2px solid black;
+    margin: auto;
+}
+.header {
+   width: 1440px;
+   height: 100px;
+   background-color: black;
+}
+@font-face {
+    font-family: Bebas BebasNeue-Regular;
+    src: url(BebasNeue-Regular.ttf);
+}
+.header-text {
+    width: 78px;
+    height: 40px;
+    font-family: Bebas BebasNeue-Regular;
+    color: white;
+    font-size: 48px;
+   padding-left: 60px;
+   padding-top: 10px;
+   text-decoration: none;
+}
+.header-text1 {
+    width: 500px;
+    color: white;
+    /* border: 1px solid white; */
+    position: absolute;
+    left: 35%;
+    top: 3%;
+   display: flex;
+   justify-content: space-around;
+}
+.background-image {
+    width: 1440px;
+    height: 700px;
+    border: 1px solid black;
+    background: url(/Website/images/b-image.jpg) no-repeat;
+    background-size: cover;
+}
 
